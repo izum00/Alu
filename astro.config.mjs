@@ -8,7 +8,7 @@ dotenv.config();
 // const prodBuild = process.env.NODE_ENV === "production";
 const prodBuild = process.env.IS_PROD === "true";
 
-const site = prodBuild ? "https://aluu.xyz" : "http://localhost:3000";
+const site = prodBuild ? "https://aluu.xyz" : "http://localhost:7860";
 
 export default defineConfig({
   site: site,
